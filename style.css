@@ -1,0 +1,124 @@
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 40%;
+}
+
+.container > .all {
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+#presentation > .btn {
+  padding: 18px;
+  background-color: #6B72E1;
+  color: white;
+  margin: 10px;
+  border-color: red;
+  border-radius: 10px;
+}
+
+#presentation > .btn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+#presentation > h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+#presentation > p {
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  padding: 30px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.container > #links > h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  font-size: 45px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px ;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.fab:hover {
+  display: inline;
+  color: black;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px ;
+  }
+
+}
